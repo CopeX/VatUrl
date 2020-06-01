@@ -1,0 +1,27 @@
+{
+    "name": "copex/vaturl",
+    "description": "Magento2 module which changes the url of VIES Service to validate vat's (uid) again.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "require-dev" : {
+        "phpmd/phpmd" : "2.5.*",
+        "phploc/phploc": "~2.1",
+        "pdepend/pdepend" : "2.0.*",
+        "phpunit/phpunit":  "^6",
+        "sebastian/phpcpd" : "2.0.*",
+        "squizlabs/php_codesniffer" : "~2.3",
+        "phpdocumentor/phpdocumentor" : "2.8.*",
+        "consolidation/robo" : "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CopeX\\VatUrl\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
